@@ -12,9 +12,10 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-# This updates your system as it good practice to do so.
+# This updates your system as it is good practice to do so.
 echo "Starting full system upgrade..."
 dnf upgrade -y
+dnf --refresh
 
 # This creates a backup of a list of your installed pacakges to a file.
 dnf list installed > backup.txt
@@ -25,12 +26,13 @@ dnf list installed > backup.txt
 dnf remove falkon.x86_64 juk.x86_64 k3b.x86_64 kamera.x86_64 kamoso.x86_64 kolourpaint kruler qupzilla ktorrent krusader kgpg krfb kmines kpat kmahjongg krdc konversation konqueror akregator kamoso dragon knode dnfdragora kcolorchooser kget  -y
 
 # Calligra suite
-dnf remove calligra-core.x86_64 calligra-libs.x86_64 calligra-sheets.x86_64 calligra-sheets-libs.x86_64 calligra-stage.x86_64 calligra-stage-libs.x86_64 calligra-words.x86_64 calligra-words-libs.x86_64 -y
+dnf remove calligra* -y
+
 # Address book and email management
 dnf remove kmail kaddressbook korganizer telepathy* ktp* kfind knetattach -y
 
 # Accessibility packages (commented out by default)
-# dnf remove kmouth kmousetool jovie kmag -yf
+# dnf remove kmouth kmousetool jovie kmag -y
 
 
 # This will clear our any orphan package.
