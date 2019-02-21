@@ -51,7 +51,7 @@ apt install emacs -y
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d # Installs spacemacs
 apt install curl -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - # Required for Node
-apt install -y nodejs
+apt install nodejs -y
 apt install git -y
 apt install cmake -y
 apt install filezilla -y
@@ -72,6 +72,7 @@ apt install vlc -y
 apt install typora -y
 apt install thunderbird -y
 apt install telegram-desktop -y
+apt install pandoc -y
 
 # Setting up zsh + oh-my-zsh
 apt install zsh
