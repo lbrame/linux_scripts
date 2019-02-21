@@ -21,7 +21,7 @@ apt install make -y
 apt install vim -y
 apt install curl -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - # Required for Node
-apt install -y nodejs
+apt install nodejs -y
 apt install git -y
 apt install cmake -y
 apt install python3 -y
