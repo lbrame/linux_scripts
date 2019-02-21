@@ -50,3 +50,21 @@ $ cd Setup
 $ chmod +x ubuntu_wsl_setup.sh
 $ sudo bash ubuntu_debloat.sh
 ```
+
+
+
+### fedora_kde_debloat.sh
+
+Fedora Linux is a fantastic Linux distro that pioneers the latest technologies and consistently delivers the latest packages without sacrificing stability. Fedora Workstation comes with various desktop environments, however, the KDE spin is notorious for being bloated. With this script, I seek to bring Fedora's KDE spin closer in preloads to the non-distro KDE Neon, while keeping the more modern Fedora base.
+
+Again, running this script is quite simple, just run the following commands:
+
+```bash
+$ git clone https://github.com/lbrame/linux_scripts.git
+$ cd linux_scripts
+$ cd Setup
+$ chmod +x ubuntu_wsl_setup.sh
+$ sudo bash fedora_kde_debloat.sh
+```
+
+
