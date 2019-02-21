@@ -42,3 +42,7 @@ exec zsh -l
 # Wrapping things up
 apt autoremove
 echo "You're done!"
+
+# Notice for WSL
+echo "Due to the way WSL works, please follow the instructions in WSL_on_ZSH.md after running this script."
+echo "This script does not automate this last step because I do not want to overwrite your .bashrc"
