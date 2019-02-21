@@ -35,7 +35,7 @@ sudo apt install gdb -y
 
 
 # Setting up zsh + oh-my-zsh
-apt install zsh
+apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # Oh-my-zsh!
 exec zsh -l
 
