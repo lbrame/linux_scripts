@@ -6,7 +6,7 @@ This is a collection of scripts I use to set up my environment in various Linux 
 
 ### ubuntusetup.sh
 
-This is the file I use to set up Ubuntu, but since it only uses standard apt packaging and doesn't install any snaps, is also suitable for Debian or any Debian - based distro. Please note that this script ads third-party repositories to Aptitude and it installs proprietary software.
+This is the file I use to set up Ubuntu, but since it only uses standard apt packaging and doesn't install any snaps, is also suitable for Debian or any Debian - based distro. Please note that this script adds third-party repositories to Aptitude and it installs proprietary software.
 
 To use this script, run the commands:
 
