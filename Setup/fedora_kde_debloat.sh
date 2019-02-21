@@ -18,7 +18,7 @@ dnf upgrade -y
 dnf --refresh
 
 # This creates a backup of a list of your installed pacakges to a file.
-dnf list installed > backup.txt
+dnf list installed > ~/backup.txt
 
 # This will remove the extra packages. There are certain packages you may like - comment out the line in the case.
 

@@ -15,7 +15,7 @@ fi
 # Then, let's create a backup of your currently listed applications:
 echo "Backing up the list of your installed programs to backup.txt."
 echo "In case something goes wrong, you'll find a list of everything you had installed prior to running this script in backup.txt"
-apt list --installed > backup.txt
+apt list --installed > ~/backup.txt
 
 # Before doing any further modifications, we're going to update Ubuntu as it's good practice to do so.
 echo "Starting system update..."
