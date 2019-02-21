@@ -15,5 +15,7 @@ bash -c zsh
 case $- in
 ```
 
+**Remember to use `vim`, `nano` or any other utility that runs inside WSL for this. NEVER touch files in your WSL Linux filesystem with Windows tools. It might corrupt your distro and cause permanent data loss.**
+
 Credits to Syed Sharizal on Medium for finding this out. Check out [his awesome article on how to set up WSL](https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97)!
 
