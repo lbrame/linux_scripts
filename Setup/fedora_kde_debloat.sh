@@ -29,7 +29,7 @@ dnf remove falkon.x86_64 juk.x86_64 k3b.x86_64 kamera.x86_64 kamoso.x86_64 kolou
 dnf remove calligra* -y
 
 # Address book and email management
-dnf remove kmail kaddressbook korganizer telepathy* ktp* kfind knetattach -y
+dnf remove kmail kaddressbook korganizer telepathy* ktp* knetattach -y
 
 # Accessibility packages (commented out by default)
 # dnf remove kmouth kmousetool jovie kmag -y
