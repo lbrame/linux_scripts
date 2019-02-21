@@ -33,6 +33,7 @@ $ cd Setup
 $ chmod +x ubuntu_wsl_setup.sh
 $ sudo bash ubuntu_wsl_setup.sh
 ```
+After running this script, please follow the steps outlined in [this file](https://github.com/lbrame/linux_scripts/blob/master/Setup/WSL_on_ZSH.md).
 
 
 
