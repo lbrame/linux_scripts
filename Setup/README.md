@@ -34,3 +34,18 @@ $ chmod +x ubuntu_wsl_setup.sh
 $ sudo bash ubuntu_wsl_setup.sh
 ```
 
+
+
+### ubuntu_debloat.sh
+
+Let's face it, Ubuntu's default installation is heavily bloated. Canonical finally added a minimal install option from Ubuntu 18.04 onwards, but the side effect is that upgrading your system to the next version of Ubuntu brings all the bloat from the main installation with it. Furthermore, you might have started out with a full installation but might want to convert your install to a minimal installation. This script will backup a list of installed packages to a `backup.txt` file, remove all the extra programs and then clean out any orphan entry that the script might have left behind. Please make a backup and use this tool with caution, as it is not endorsed or recommended by Canonical.
+
+To use the script, run these commands:
+
+```bash
+$ git clone https://github.com/lbrame/linux_scripts.git
+$ cd linux_scripts
+$ cd Setup
+$ chmod +x ubuntu_wsl_setup.sh
+$ sudo bash ubuntu_debloat.sh
+```
