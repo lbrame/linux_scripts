@@ -47,7 +47,7 @@ To use the script, run these commands:
 $ git clone https://github.com/lbrame/linux_scripts.git
 $ cd linux_scripts
 $ cd Setup
-$ chmod +x ubuntu_wsl_setup.sh
+$ chmod +x ubuntu_debloat.sh
 $ sudo bash ubuntu_debloat.sh
 ```
 
@@ -63,7 +63,7 @@ Again, running this script is quite simple, just run the following commands:
 $ git clone https://github.com/lbrame/linux_scripts.git
 $ cd linux_scripts
 $ cd Setup
-$ chmod +x ubuntu_wsl_setup.sh
+$ chmod +x fedora_kde_debloat.sh
 $ sudo bash fedora_kde_debloat.sh
 ```
 
