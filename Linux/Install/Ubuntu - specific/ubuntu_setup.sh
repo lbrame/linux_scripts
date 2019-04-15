@@ -60,28 +60,12 @@ sudo snap install \
   gimp `#Image manipulation software` \
 
 
-###
-# GNOME settings
-# From Tobias's Fedora setup script https://git.furworks.de/tobias/fedora-install/src/branch/master/install.sh
-###
-# Make sure rgba font smoothing is enabled
-gsettings set org.gnome.settings-daemon.plugins.xsetti    ngs antialiasing 'rgba'
-# Less annoying mouse acceleration
 gsettings set org.gnome.desktop.peripherals.mouse acce    l-profile 'adaptive'
-# Enable overamplification (Not recommended on earphones)
-gsettings set org.gnome.desktop.sound allow-volume-abo    ve-100-percent true
-# Multi-display improvements
-gsettings set org.gnome.shell.overrides workspaces-onl    y-on-primary false
-# Make the file indexer less power-hungry
 gsettings set org.freedesktop.Tracker.Miner.Files inde    x-on-battery false
 gsettings set org.freedesktop.Tracker.Miner.Files inde    x-on-battery-first-time false
 gsettings set org.freedesktop.Tracker.Miner.Files thro    ttle 15
-# Better Nautilus settings
 gsettings set org.gnome.nautilus.icon-view default-zoo    m-level 'standard'
-# Bring back launching executable files directly from Nautilus
 gsettings set org.gnome.nautilus.preferences executabl    e-text-activation 'ask'
-gsettings set org.gtk.Settings.FileChooser sort-direct    ories-first true
-gsettings set org.gnome.nautilus.list-view use-tree-vi    ew true
 
 ###
 # Better power manager than Ubuntu's default
@@ -91,10 +75,4 @@ sudo apt install tuned -y
 sudo systemctl enable --now tuned
 sudo tuned-adm profile balanced
 
-# Profile settings
-# * balanced - Default tuning
-# * desktop - pure performance with no regards for mpower consumption
-# * powersave - maximize battery life
-
-# cleanup
 sudo apt autoremove -y
