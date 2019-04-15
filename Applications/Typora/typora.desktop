@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=false
-Icon=/home/luca/Typora-linux-x64/resources/app/asserts/icon.png
-Name=Typora
-Comment=MarkDown Editor
-Exec=/opt/typora/Typora
-Categories=IDE;
