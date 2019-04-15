@@ -1,3 +1,4 @@
-# linux_scripts
-A collection of Linux shell scripts I wrote for automation purposes. This repository will be updated the more scripts I add. These scripts are organized in subfolders and basically automate the boring aspects of my Linux workflow - they may include debloat scripts, quick post-install scripts to install everything I need, scripts to quickly setup development environments once I've figured them out and whatever comes on my mind.
+# Scripts
+This is a collection of scripts I wrote to automate certain operations. They come with no warranty whatsoever and you may use them at your own risk and danger.
 
+**linux-scripts** - These scripts are specific to the GNU/Linux operating system
