@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# This is the script I use to set up my environment on the Fedora Linux distro.
-# Fedora is a bit involved to set up at first due to it's freedom-first philosophy, so using a script
-# can make applying the final touches significantly less painful.
-# Please note this is only meant to be used on the Fedora GNOME distro. I have another script for the
-# Fedora KDE spin, which makes choices that are better suited for the Plasma desktop.
-
 # This makes sure you are root.
 if [[ $EUID -ne 0 ]]; then
    echo "Please run this script as root!" 1>&2
